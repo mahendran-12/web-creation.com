@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>dropdown</title>
+</head>
+<body>
+	
+   <select class="select">
+   	<option class="h1">content1</option>
+   	<option class="h1">content2</option>
+   	<option class="h1">content3</option>
+   	<option class="h1">content4</option>
+   	<option class="h1">content5</option>
+   </select>
+   <button class="button0">click</button>
+   <script type="text/javascript">
+   	const but1=document.querySelector('.button0');
+   		const but2=document.querySelector('.h1');
+
+   	if (but1) {
+   		but1.addEventListener('click',button9);
+   		button9();
+   	}
+   	function button9() {
+   		const h1=document.querySelector('.select').value
+   		console.log(h1);
+   	}
+   </script>
+</body>
+</html>
